@@ -30,4 +30,17 @@ public class Book {
         this.author = author;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                ", olId='" + olId + '\'' +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", releaseDate=" + releaseDate +
+                ", author='" + author + '\'' +
+                ", cover='" + cover + '\'' +
+                ", genre=" + genre +
+                ", pages=" + pages +
+                '}';
+    }
 }
