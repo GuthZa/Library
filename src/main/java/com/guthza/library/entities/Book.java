@@ -1,4 +1,4 @@
-package com.guthza.library.student;
+package com.guthza.library.entities;
 
 import lombok.*;
 import org.bson.types.ObjectId;
@@ -30,4 +30,17 @@ public class Book {
         this.author = author;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                ", olId='" + olId + '\'' +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", releaseDate=" + releaseDate +
+                ", author='" + author + '\'' +
+                ", cover='" + cover + '\'' +
+                ", genre=" + genre +
+                ", pages=" + pages +
+                '}';
+    }
 }
