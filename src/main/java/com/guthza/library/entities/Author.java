@@ -16,6 +16,7 @@ public class Author {
     private ObjectId _id;
     private String olId;
     private String name;
+    private String description;
     @DocumentReference
     private List<Book> bookIds;
 }
