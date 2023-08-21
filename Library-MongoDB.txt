@@ -1,0 +1,4 @@
+MongoDb
+guthza
+DLxet14PhZi3P48K
+mongodb+srv://guthza:DLxet14PhZi3P48K@library.80yvnwn.mongodb.net/

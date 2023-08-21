@@ -1,0 +1,62 @@
+[
+    {
+        "id": "OL22856696M",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "description": "Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School for Wizards and Witches",
+        "releaseDate": "1998",
+        "author": "J. K. Rowling",
+        "cover": "https://covers.openlibrary.org/b/id/14362634-L.jpg",
+        "genre": [
+            "Fantasy",
+            "Fiction",
+            "Action",
+            "Humour",
+            "Drama",
+            "Mystery"
+        ],
+        "pages": "223"
+    },
+    {
+        "id": "OL26452617M",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "description": "In a sleepy village in the Shire, a young hobbit is entrusted with an immense task. He must make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ruling Ring of Power - the only thing prevents the Dark Lord Sauron's evil domination.",
+        "releaseDate": "1954",
+        "author": "J. R. R. Tolkien",
+        "cover": "https://covers.openlibrary.org/b/id/14407899-L.jpg",
+        "genre": [
+            "Fantasy",
+            "Fiction",
+            "Action"
+        ],
+        "pages": "423"
+    },
+    {
+        "id": "OL28341707M",
+        "title": "The Lord of the Rings: The Two Towers",
+        "description": "Frodo and the Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom.",
+        "releaseDate": "1954",
+        "author": "J. R. R. Tolkien",
+        "cover": "https://covers.openlibrary.org/b/id/10290014-L.jpg",
+        "genre": [
+            "Fantasy",
+            "Fiction",
+            "Action"
+        ],
+        "pages": "352"
+    },
+    {
+        "id": "OL6777822M",
+        "title": "Le Petit Prince",
+        "description": "Le Petit Prince est une œuvre de langue française, la plus connue d'Antoine de Saint-Exupéry. Publié en 1943 à New York simultanément à sa traduction anglaise, c'est une œuvre poétique et philosophique sous l'apparence d'un conte pour enfants.",
+        "releaseDate": "1943",
+        "author": "Antoine de Saint-Exupéry",
+        "cover": "https://covers.openlibrary.org/b/id/115557-L.jpg",
+        "genre": [
+            "Philosophical",
+            "Fiction",
+            "Classic",
+            "Exploratory"
+        ],
+        "pages": "83"
+    }
+]
