@@ -3,7 +3,9 @@ package com.guthza.library.entities;
 import lombok.*;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
+
 
 import java.util.List;
 
@@ -18,29 +20,10 @@ public class Book {
     private String title;
     private String description;
     private Integer releaseDate;
-    private String author;
+    private String authorId;
     private String cover;
     private List<String> genre;
     private Integer pages;
-
-    public Book(String title, String description, Integer releaseDate, String author) {
-        this.title = title;
-        this.description = description;
-        this.releaseDate = releaseDate;
-        this.author = author;
-    }
-
-    @Override
-    public String toString() {
-        return "Book{" +
-                ", olId='" + olId + '\'' +
-                ", title='" + title + '\'' +
-                ", description='" + description + '\'' +
-                ", releaseDate=" + releaseDate +
-                ", author='" + author + '\'' +
-                ", cover='" + cover + '\'' +
-                ", genre=" + genre +
-                ", pages=" + pages +
-                '}';
-    }
+    @Transient
+    private String authorName;
 }

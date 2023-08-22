@@ -31,6 +31,17 @@ public class BookController {
     }
     @GetMapping("/{olId}")
     public ResponseEntity<Optional<Book>> getBookByOlId(@PathVariable String olId) {
-        return new ResponseEntity<>(bookService.getSingleBook(olId), HttpStatus.OK);
+        return new ResponseEntity<>(bookService.getBookByOlId(olId), HttpStatus.OK);
+    }
+
+    @GetMapping("/title={title}")
+    public ResponseEntity<Optional<Book>> getBookByTitle(@PathVariable String title) {
+        return new ResponseEntity<>(bookService.getBookByTitle(title), HttpStatus.OK);
+    }
+
+
+    @GetMapping("/byAuthor/{authorId}")
+    public ResponseEntity<List<Book>> getBookByAuthorId(@PathVariable String authorId) {
+        return new ResponseEntity<>(bookService.getBookByAuthorId(authorId), HttpStatus.OK);
     }
 }
